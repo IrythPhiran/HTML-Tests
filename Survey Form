@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <h1 id=title>Something Something Survey</h1>
+   <p id="description">This survey serves no purpose it is merely for HTML testing</p>
+    <form id="survey-form">This is the survey form, it also serves no other purpose beyond display and testing.
+     <br><br>
+      <label id="name-label" for="name">Enter your name: </label>
+	 <input id="name" type="name" placeholder="name" required><br><br>
+	  <label id="email-label" for="email">Enter your email: </label>
+	 <input id="email" type="email" placeholder="email" required><br><br>
+	  <label id="number-label" for="number">Enter your number:            </label>
+     <input id="number" type="number" min="1" max="20" placeholder="num" required><br><br>
+     <select id="dropdown" name="dropdown">
+     <option value="Option 1">Option 1</option>
+     <option value="Option 2">Option 2</option>
+     <option value="Option 3">Option 3</option>
+     <option value="Option 4">Option 4</option>
+     </select><br><br>
+     <input type="radio" id="radio" name="radio" value="radio 1">
+      <label for="radio 1">Radio 1</label><br>
+     <input type="radio" id="radio" name="radio" value="radio 2">
+      <label for="radio 2">Radio 2</label><br>
+     <input type="radio" id="cd player" name="cd player" value="cd player 1">
+      <label for="cd player 1">Cd Player 1</label><br>
+     <input type="radio" id="cd player" name="cd player" value="cd player 2">
+      <label for="cd player 2">Cd Player 2</label><br><br>
+     <input type="checkbox" id="checkbox 1" name="checkbox 1" value="checkbox">Checkbox mate click it.<br>
+     <input type="checkbox" id="checkbox 2" name="checkbox 2" value="checkbox">No don't click it!<br>
+     <input type="checkbox" id="checkbox 3" name="checkbox 3" value="checkbox">Wait, what?<br>
+     <input type="checkbox" id="checkbox 3" name="checkbox 4" value="checkbox">Not funny, didn't laugh...<br><br>
+     <textarea>Comments go here.</textarea> <br><br>
+     <input type="submit" id="submit"> 
+	</form>
+  </body>
+</html>
