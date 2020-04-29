@@ -1,0 +1,26 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id="main">
+<head>
+   <title id="title">Wacky Waving Inflatable Tube Guy </title>
+   <style type="text/css">
+     #image {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       max-width: 100px;
+  }
+   </style>
+</head>
+<body>
+     <div id="img-div">
+      <img src="https://media1.tenor.com/images/74976d3223933f8f8b6960ca1b1c1cf9/tenor.gif?itemid=3809966" alt="Animated Green Tube Man" id="image">
+      <figcaption id="img-caption">
+        <p>A tube man, also known as a skydancer, air dancer, or wacky waving inflatable arm flailing tube man, and originally called the Tall Boy, is an inflatable moving advertising product comprising a long fabric tube (with two or more outlets), which is attached to and powered by an electrical fan.</p>
+      </figcaption>
+     </div>
+   <p id="tribute-info">Peter Minshall, an artist from Trinidad and Tobago, came up with the concept, and it was developed by a team that included Israeli artist Doron Gazit and Arieh Dranger, for the 1996 Summer Olympics. Minshall originally called his invention the "Tall Boy". Gazit eventually patented the concept of an inflatable, dancing human-shaped balloon, and licensed the patent to various companies that manufacture and sell the devices.
+Some local municipalities in the United States have banned the use of these products. An ordinance in Houston, which went into effect in 2010, prohibits the use of all attention-getting devices, claiming the use of such devices "contributes to urban visual clutter and blight and adversely affects the aesthetic environment and the safety and quality of life for the community and the citizens of the city."</p>
+
+   <a id="tribute-link" href="https://en.wikipedia.org/wiki/Tube_man" target="_blank"> https://en.wikipedia.org/wiki/Tube_man</a>
+
+ </main>
