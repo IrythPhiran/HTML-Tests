@@ -1,4 +1,4 @@
-<main id="main">
+<body id="main">
 <head>
    <title id="title">Wacky Waving Inflatable Tube Guy </title>
    <style type="text/css">
@@ -10,7 +10,6 @@
   }
    </style>
 </head>
-<body>
      <div id="img-div">
       <img src="https://media1.tenor.com/images/74976d3223933f8f8b6960ca1b1c1cf9/tenor.gif?itemid=3809966" alt="Animated Green Tube Man" id="image">
       <figcaption id="img-caption">
@@ -20,6 +19,5 @@
    <p id="tribute-info">Peter Minshall, an artist from Trinidad and Tobago, came up with the concept, and it was developed by a team that included Israeli artist Doron Gazit and Arieh Dranger, for the 1996 Summer Olympics. Minshall originally called his invention the "Tall Boy". Gazit eventually patented the concept of an inflatable, dancing human-shaped balloon, and licensed the patent to various companies that manufacture and sell the devices.
 Some local municipalities in the United States have banned the use of these products. An ordinance in Houston, which went into effect in 2010, prohibits the use of all attention-getting devices, claiming the use of such devices "contributes to urban visual clutter and blight and adversely affects the aesthetic environment and the safety and quality of life for the community and the citizens of the city."</p>
 
-   <a id="tribute-link" href="https://en.wikipedia.org/wiki/Tube_man" target="_blank"> https://en.wikipedia.org/wiki/Tube_man</a>
-
- </main>
+   <a id="tribute-link" href="https://en.wikipedia.org/wiki/Tube_man" target="_blank"> More Wacky Wavy Inflatable Tube Man</a>
+</body>
