@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <style>
+  #header {
+    position: fixed;
+    position: top;
+    }
+    
+  .flex-container {
+  display: flex;
+}
+    
+  @media nav-bar {
+    position: bottom;
+    }
+  </style>
+  
+ <header id="header">
+  <img id="header-img" src="https://img-comment-fun.9cache.com/media/aGenjVn/awW0KlPZ_700w_0.jpg" alt="Absolutely Barbaric Image">
+  <nav id="nav-bar">
+   <a class="nav-link" href="#header-img">Gladio</a>|  
+   <a class="nav-link" href="#header-img">Scutum</a>|  
+   <a class="nav-link" href="#header-img">Centurion</a>|    
+  </nav>
+  <video id="video" width="500" controls>
+   <source src="test.webm" type="video/webm">
+  Your browser does not support the video tag.
+  </video>
+ </header>
+ <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <label id="email-label" for="email">Enter your email: </label>
+	<input id="email" type="email" name="email" placeholder="email_1@domain.com" required><br><br>
+  <input type="submit" id="submit"><br><br>
+ </form>
+</html>
