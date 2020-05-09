@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+ <style>
+nav#navbar{
+  grid-area:navbar;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  min-height:400px;
+  height:100%;
+}
+
+@media and screen(max-width:750px){
+  di.main-body{
+    grid-template-columns:1fr;
+    grid-template-areas:"navbar" "main-section";
+  }
+ </style> 
+ <head>
+  <title>Responsive Web Design Projects - Build a Technical Documentation Page</title>
+ </head>
+ <main id="main-doc">
+  <body> 
+  <section class="main-section" id="Centurion">
+   <header>Centurion</header>
+    <code>
+     <li><p></p>
+     <p></p>
+     <p></p>
+    </code>
+  </section>
+  <section class="main-section" id="Gladius">
+   <header>Gladius</header>
+    <code> 
+     <li><p></p>
+     <p></p>
+     <p></p>
+    </code>
+  </section>
+  <section class="main-section" id="Scutum">
+   <header>Scutum</header>
+    <code> 
+     <li><p></p>
+     <p></p>
+     <p></p>
+    </code>
+  </section>
+  <section class="main-section" id="Colosseum">
+   <header>Colosseum</header>
+    <code> 
+     <li><p></p>
+     <p></p>
+     <p></p>
+    </code>
+  </section>
+  <section class="main-section" id="Agora">
+   <header>Agora</header>
+    <code> 
+     <li><p></p>
+     <p></p>
+     <p></p>
+    </code>
+  </section>
+   <nav id="navbar">
+    <header>Roman Culture</header>
+    <a href="#Centurion" class="nav-link" alt="Image of a Centurion" target="_blank">Centurion</a><br>
+    <a href="#Gladius" class="nav-link" alt="Image of a Gladius" target="_blank">Gladius</a><br>
+    <a href="#Scutum" class="nav-link" alt="Image of a Gladius" target="_blank">Scutum</a><br>
+    <a href="#Colosseum" class="nav-link" alt="Image of the Colloseum of Rome" target="_blank">Colosseum</a><br>
+    <a href="#Agora" class="nav-link" alt="Example Image of a famous Agora" class="_blank">Agora</a><br>
+   </nav>  
+  </body>
+ </main> 
+</html>
